@@ -27,7 +27,6 @@ npm i --save-dev chai
 ``` 
 
 This proxy pattern Uses `delegate call` in order to execute the logic of Smart Contract B inside the context of the Proxy (contract A). All data is on the ProxyAdmin storage, so when the admin wants to change the smart contract logic the ProxyAdmin contract points to the address of the newly deployed contract.
-![[Pasted image 20211019215352.png]]
 When users call a function, the proxy checks if the caller is an admin or a user, then it delegates the call to the target smart contract to execute the logic under using the data stored in the proxy contract (executing inside the proxy context).
 
 ![image](https://user-images.githubusercontent.com/47452703/137991907-280555eb-ca0f-4521-9310-11af119690c4.png)
