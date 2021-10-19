@@ -12,7 +12,7 @@ User ---- tx ---> Proxy ----------> Implementation_v0
 
 
 
-Clone this repo and on you root folder and run:
+Clone this repo and and run:
 
 ```
 npm i truffle
