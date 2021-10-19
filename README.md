@@ -33,7 +33,7 @@ When users call a function, the proxy checks if the caller is an admin or a user
 
 
 
-The #drawbacks of using this pattern are:
+The # drawbacks of using this pattern are:
 
 - storage / function collisions. All variables must not be touched and new ones must be introduced at the end.
 - gas spent to check if the caller of a function is the admin or a regular user. Writing data to storage is also very costly.
