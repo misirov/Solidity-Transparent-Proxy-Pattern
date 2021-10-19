@@ -13,13 +13,13 @@ User ---- tx ---> Proxy ----------> Implementation_v0
 
 
 Clone this repo and on you root folder run:
-> ```
-> npm i truffle
-> ```
-
-> ```npm i --save-dev @openzeppelin/truffle-upgrades```
-
-> ```npm i --save-dev chai``` --> for testing
+```
+npm i truffle
+```
+```npm i --save-dev @openzeppelin/truffle-upgrades
+```
+```npm i --save-dev chai
+``` --> for testing
 
 
 This proxy pattern Uses `delegate call` in order to execute the logic of Smart Contract B inside the context of the Proxy (contract A). All data is on the ProxyAdmin storage, so when the admin wants to change the smart contract logic the ProxyAdmin contract points to the address of the newly deployed contract.
