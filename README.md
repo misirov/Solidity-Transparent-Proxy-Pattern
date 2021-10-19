@@ -13,11 +13,11 @@ User ---- tx ---> Proxy ----------> Implementation_v0
 
 
 Clone this repo and on you root folder run:
-> `npm i truffle`
+> ```npm i truffle```
 
-> `npm i --save-dev @openzeppelin/truffle-upgrades`
+> ```npm i --save-dev @openzeppelin/truffle-upgrades```
 
-> `npm i --save-dev chai` --> testing
+> ```npm i --save-dev chai``` --> for testing
 
 
 This proxy pattern Uses `delegate call` in order to execute the logic of Smart Contract B inside the context of the Proxy (contract A). All data is on the ProxyAdmin storage, so when the admin wants to change the smart contract logic the ProxyAdmin contract points to the address of the newly deployed contract.
@@ -38,7 +38,7 @@ The drawbacks are:
 
 Expected output when deploying for the first time:
 
-```
+`
 1_box_migration.js
 ==================
 
@@ -54,11 +54,11 @@ Expected output when deploying for the first time:
 Summary
 =======
 > Total deployments:   3
-```
+`
 
 Expected output when upgrading the contract:
 
-```
+`
 1_box_migration.js
 ==================
 
@@ -68,10 +68,11 @@ Expected output when upgrading the contract:
 Summary
 =======
 > Total deployments:   1
-```
+`
 
 <br><br>
-sources:
+#### sources:
+<br>
 Openzeppelin Proxies: https://docs.openzeppelin.com/upgrades-plugins/1.x/
 
 Openzeppelin Transparent Proxy Pattern with truffle: https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-truffle/3579
