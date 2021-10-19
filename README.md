@@ -16,8 +16,10 @@ Clone this repo and on you root folder run:
 ```
 npm i truffle
 ```
+
 ```npm i --save-dev @openzeppelin/truffle-upgrades
 ```
+
 ```npm i --save-dev chai
 ``` --> for testing
 
