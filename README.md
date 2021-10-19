@@ -27,7 +27,7 @@ npm i --save-dev chai
 ``` 
 
 This proxy pattern uses the `delegatecall` low level function in order to execute the logic of a deployed Smart Contract inside the context of the ProxyAdmin. All data resides on the ProxyAdmin storage, so when the admin wants to change the Smart Contract logic, a new contract is deployed and the ProxyAdmin points to the address of the new contract.
-When users call a function, the proxy checks if the caller is an admin or a user, then it delegates the call to the target smart contract to execute the logic using the data stored in the ProxyAdmin contract (context execution).
+When users call a function, the proxy checks inside the contract storage if the caller is an admin or a user, then it delegates the call to the target smart contract to execute the logic using the data stored in the ProxyAdmin contract (context execution).
 
 ![image](https://user-images.githubusercontent.com/47452703/137991907-280555eb-ca0f-4521-9310-11af119690c4.png)
 
