@@ -30,6 +30,10 @@ This proxy pattern Uses `delegate call` in order to execute the logic of Smart C
 ![[Pasted image 20211019215352.png]]
 When users call a function, the proxy checks if the caller is an admin or a user, then it delegates the call to the target smart contract to execute the logic under using the data stored in the proxy contract (executing inside the proxy context).
 
+![image](https://user-images.githubusercontent.com/47452703/137991907-280555eb-ca0f-4521-9310-11af119690c4.png)
+
+
+
 The drawbacks are:
 
 - storage / function collisions. All variables must not be touched and new ones must be introduced at the end.
