@@ -42,7 +42,7 @@ When users call a function, the proxy checks inside the contract storage if the 
 
 The drawbacks of using this pattern are:
 
-- storage / function collisions. All variables must not be touched and new ones must be introduced at the end.
+- storage / function collisions. All variables must not be touched and new ones must be introduced at the end. (when variables are set, these have an index number in the storage contract. If two variables have the same index, then storage will be lost).
 - gas spent to check if the caller of a function is the admin or a regular user. Writing data to storage is also very costly.
 - How proxies expose the interface without requiring a one to one mapping of the entire logc contract's interface. fallback functions solve this:
   - (1) the `calldata` is copied to memory,
