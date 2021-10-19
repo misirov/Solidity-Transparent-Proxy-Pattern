@@ -78,7 +78,7 @@ Summary
 
 <br><br>
 #### sources:
-<br>
+
 Openzeppelin Proxies: https://docs.openzeppelin.com/upgrades-plugins/1.x/
 
 Openzeppelin Transparent Proxy Pattern with truffle: https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-truffle/3579
