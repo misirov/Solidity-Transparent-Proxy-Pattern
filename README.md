@@ -16,9 +16,13 @@ https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for
 Using Openzeppelin plugins:
 https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades
 
-> Dependencies:
+Clone this repo and on you root folder run:
+> `npm i truffle`
+
 > `npm i --save-dev @openzeppelin/truffle-upgrades`
+
 > `npm i --save-dev chai` --> testing
+
 
 This proxy pattern Uses `delegate call` in order to execute the logic of Smart Contract B inside the context of the Proxy (contract A). All data is on the ProxyAdmin storage, so when the admin wants to change the smart contract logic the ProxyAdmin contract points to the address of the newly deployed contract.
 ![[Pasted image 20211019215352.png]]
