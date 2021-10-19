@@ -73,10 +73,15 @@ Summary
 <br><br>
 sources:
 Openzeppelin Proxies: https://docs.openzeppelin.com/upgrades-plugins/1.x/
+
 Openzeppelin Transparent Proxy Pattern with truffle: https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-truffle/3579
+
 Step by step with truffle on: https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-truffle/3579
+
 Using Openzeppelin plugins:https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades
+
 Smart Contract Upgrades and Proxy Patterns (Hands-On): https://www.youtube.com/watch?v=YpEm9Ki0qLE
+
 Upgrading your Smart Contracts | A Tutorial & Introduction: https://www.youtube.com/watch?v=bdXJmWajZRY
 
 >With L0ve:
