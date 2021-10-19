@@ -26,6 +26,18 @@ npm i --save-dev @openzeppelin/truffle-upgrades
 npm i --save-dev chai
 ``` 
 
+```
+truffle compile
+```
+
+```
+truffle develop
+```
+```
+truffle migrate
+```
+
+
 This proxy pattern uses the `delegatecall` low level function in order to execute the logic of a deployed Smart Contract inside the context of the ProxyAdmin. All data resides on the ProxyAdmin storage, so when the admin wants to change the Smart Contract logic, a new contract must be deployed and the ProxyAdmin reference changed so it points to the address of the new contract.
 When users call a function, the proxy checks inside the contract storage if the caller is an admin or a user, then it delegates the call to the target smart contract to execute the logic using the data stored in the ProxyAdmin contract (context execution).
 
