@@ -40,11 +40,11 @@ The drawbacks are:
   - (3) the return data from the call to the logic contract is retrieved, and
   - (4) the returned data is forwarded back to the caller
 
-> ![[Pasted image 20211019220314.png]] > https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable
+> https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable
 
 Expected output when deploying for the first time:
 
-`
+```
 1_box_migration.js
 ==================
 
@@ -60,11 +60,11 @@ Expected output when deploying for the first time:
 Summary
 =======
 > Total deployments:   3
-`
+```
 
 Expected output when upgrading the contract:
 
-`
+```
 1_box_migration.js
 ==================
 
@@ -74,7 +74,7 @@ Expected output when upgrading the contract:
 Summary
 =======
 > Total deployments:   1
-`
+```
 
 <br><br>
 #### sources:
