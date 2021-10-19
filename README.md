@@ -1,6 +1,6 @@
 ## Transparent Proxy Pattern
 
-This is a summary of what i learned while playing with the Transparent Proxy\*
+This is a summary of what i learned while playing with the Transparent Proxy Pattern\*
 
 ```
 User ---- tx ---> Proxy ----------> Implementation_v0
