@@ -13,10 +13,11 @@ User ---- tx ---> Proxy ----------> Implementation_v0
 
 
 Clone this repo and on you root folder and run:
-
+(if you dont have truffle installed)
 ```
-npm i --save-dev truffle
+npm i truffle
 ```
+Else run:
 ```
 npm i --save-dev @openzeppelin/truffle-upgrades
 ```
